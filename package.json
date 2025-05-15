@@ -4,7 +4,7 @@
   "description": "Curso Node",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "Start:dev": "nodemon index.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/Jotav-code/Estudos-node-js/issues"
   },
-  "homepage": "https://github.com/Jotav-code/Estudos-node-js#readme"
+  "homepage": "https://github.com/Jotav-code/Estudos-node-js#readme",
+  "dependencies": {
+    "nodemon": "^3.1.10"
+  }
 }
