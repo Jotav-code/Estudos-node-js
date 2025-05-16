@@ -1,22 +1,5 @@
 {
-  "name": "node",
-  "version": "1.0.0",
-  "description": "Curso Node",
-  "main": "index.js",
-  "scripts": {
-    "Start:dev": "nodemon index.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Jotav-code/Estudos-node-js.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Jotav-code/Estudos-node-js/issues"
-  },
-  "homepage": "https://github.com/Jotav-code/Estudos-node-js#readme",
   "dependencies": {
-    "nodemon": "^3.1.10"
+    "dotenv": "^16.5.0"
   }
 }
