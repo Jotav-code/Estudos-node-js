@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 
-//senha gAUMb2F6bXxjkAE
+
 
 const connectToDatabase = async () =>{
     await mongoose.connect(`mongodb+srv://${process.env.MONGODB_USER}:${process.env.MONGODB_PASSWORD}@cluster0.mpkwc8b.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0`, (error)=>{
@@ -11,4 +11,4 @@ const connectToDatabase = async () =>{
     })
 }
 
-module.exports = connectToDatabase
+module.exports = connectToDatabase;
