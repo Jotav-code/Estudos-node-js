@@ -1,4 +1,4 @@
-const { Person } = require("./person");
+// const { Person } = require("./person");
 
 // const person = new Person("jota");
 
@@ -8,10 +8,10 @@ const connectToDatabase = require('./src/database/connect')
 
 dotenv.config();
 
-// connectToDatabase();
+connectToDatabase();
 
 
 // // require("./modeles/path")
 // // require("./modeles/fs");
 // // require("./modeles/http");
-// require("./modeles/express");
+require("./modeles/express");
